@@ -1,0 +1,70 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Times New Roman", 'Times New Roman', Times, serif;
+  background-color: #3c3c3c;
+  color: #fff;
+  background-image: url("https://images.pexels.com/photos/8272141/pexels-photo-8272141.jpeg?cs=srgb&dl=pexels-cottonbro-studio-8272141.jpg&fm=jpg");  
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 40px #ffffff;
+
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0;
+  letter-spacing: 7px;
+  text-shadow: 0 0 4px #ffffff;
+
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+.MovieDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  background-color: #3c3c3c;
+  color: #fff;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 20px;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+.movie-info {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+}
